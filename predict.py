@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 # -----------------------------
-pg = st.navigation([st.Page("coba_insert_streamlit.py", title="Home")]) 
+pg = st.navigation([st.Page("predict.py", title="Home")]) 
 # -----------------------------
 water_data = pd.read_csv('water_potability.csv')
 wd = water_data.fillna(water_data.mean())
